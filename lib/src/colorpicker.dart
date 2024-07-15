@@ -337,7 +337,7 @@ class _ColorPickerState extends State<ColorPicker> {
             FittedBox(
               child: ColorPickerLabel(
                 currentHsvColor,
-                enableAlpha: widget.enableAlpha,
+                // enableAlpha: widget.enableAlpha,
                 textStyle: widget.labelTextStyle,
                 colorLabelTypes: widget.labelTypes,
               ),
